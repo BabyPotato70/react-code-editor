@@ -45,7 +45,6 @@ const CodeEditor = () => {
 
   return (
     <div className="editor-app">
-      {/* top bar */}
       <header className="top-bar">
         <div className="brand">
           <div className="brand-icon">⬡</div>
@@ -54,7 +53,6 @@ const CodeEditor = () => {
       </header>
 
       <div className="editor-layout">
-        {/* sidebar */}
         <aside className="sidebar">
           <div className="sidebar-section">
             <div className="sidebar-label">Explorer</div>
@@ -81,9 +79,7 @@ const CodeEditor = () => {
           </div>
         </aside>
 
-        {/* editor + preview qith liveprovider */}
         <LiveProvider code={code} noInline={true}>
-          {/* ocde editor side */}
           <div className="editor-panel">
             <div className="editor-tabs">
               <div className="tab active">
@@ -99,10 +95,8 @@ const CodeEditor = () => {
             <LiveError />
           </div>
 
-          {/* resize handle */}
           <div className="panel-divider" />
 
-          {/* preview side */}
           <div className="preview-panel">
             <div className="preview-header">
               <div className="preview-title">
@@ -118,7 +112,6 @@ const CodeEditor = () => {
         </LiveProvider>
       </div>
 
-      {/* status bar */}
       <footer className="status-bar">
         <div className="status-left">
           <span className="status-item status-accent">⬡ React Live</span>

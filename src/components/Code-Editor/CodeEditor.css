@@ -6,7 +6,6 @@
   background: var(--bg-primary);
 }
 
-/*top bar*/
 .top-bar {
   display: flex;
   align-items: center;
@@ -107,14 +106,12 @@
   background: var(--border);
 }
 
-/* main alyout */
 .editor-layout {
   display: flex;
   flex: 1;
   overflow: hidden;
 }
 
-/* sidebar */
 .sidebar {
   width: 180px;
   background: var(--bg-secondary);
@@ -182,7 +179,6 @@
   margin: 8px 12px;
 }
 
-/*editor panel */
 .editor-panel {
   flex: 1;
   display: flex;
@@ -191,7 +187,6 @@
   background: var(--bg-editor);
 }
 
-/* tabs */
 .editor-tabs {
   display: flex;
   align-items: center;
@@ -241,14 +236,12 @@
   color: var(--text-secondary);
 }
 
-/* editor side */
 .editor-area {
   flex: 1;
   overflow: auto;
   position: relative;
 }
 
-/* override react-live editor styles */
 .editor-area .prism-code,
 .editor-area textarea,
 .editor-area pre {
@@ -268,7 +261,6 @@
   height: 100%;
 }
 
-/* line number  */
 .editor-area::before {
   content: '';
   position: absolute;
@@ -281,7 +273,6 @@
   pointer-events: none;
 }
 
-/* error Bar*/
 .error-bar {
   background: rgba(248, 113, 113, 0.08);
   border-top: 1px solid rgba(248, 113, 113, 0.2);
@@ -301,7 +292,6 @@
   margin-top: 1px;
 }
 
-/*override react-live error */
 .editor-panel .react-live-error {
   background: rgba(248, 113, 113, 0.08) !important;
   border: none !important;
@@ -314,7 +304,6 @@
   border-radius: 0 !important;
 }
 
-/* divider */
 .panel-divider {
   width: 4px;
   background: var(--border);
@@ -341,7 +330,6 @@
   opacity: 0.4;
 }
 
-/* preview side */
 .preview-panel {
   width: 420px;
   display: flex;
@@ -405,7 +393,6 @@
   opacity: 0.5;
 }
 
-/* override react-live side */
 .preview-area .react-live-preview {
   position: relative;
   z-index: 1;
@@ -416,7 +403,6 @@
   font-family: 'Syne', sans-serif;
 }
 
-/* status bar */
 .status-bar {
   display: flex;
   align-items: center;
