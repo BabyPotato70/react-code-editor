@@ -14,7 +14,7 @@ const defaultCode = `function Section() {
       padding: '24px',
     }}>
       <h2 style={{ fontSize: '22px', fontWeight: '800', letterSpacing: '0.02em' }}>
-        Hello, World!!
+        Hello, World!
       </h2>
       <p style={{ opacity: 0.6, fontSize: '14px' }}>
         Edit the code on the left to see changes here
@@ -115,8 +115,6 @@ const CodeEditor = () => {
       <footer className="status-bar">
         <div className="status-left">
           <span className="status-item status-accent">⬡ React Live</span>
-          <span className="status-item">JSX</span>
-          <span className="status-item">UTF-8</span>
         </div>
         <div className="status-right">
           <span className="status-item">Ln 1, Col 1</span>
